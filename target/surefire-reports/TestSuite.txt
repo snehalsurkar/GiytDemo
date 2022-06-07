@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 60.065 s <<< FAILURE! - in TestSuite
+pagenavigation(Academy.E2E.TestCase3)  Time elapsed: 5.245 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"a[href*='AutomationPractise']"}
+  (Session info: headless chrome=102.0.5005.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5DD129N', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06e1914cab002c2646fa24596baa55eb, findElement {using=css selector, value=a[href*='AutomationPractise']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\snehal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54151}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54151/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 06e1914cab002c2646fa24596baa55eb
+	at Academy.E2E.TestCase3.pagenavigation(TestCase3.java:31)
+
+pagenavigation(Academy.E2E.TestCase2)  Time elapsed: 17.848 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (758, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: headless chrome=102.0.5005.63)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5DD129N', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [70ede68d62629bcebb579c5bcbc04f80, clickElement {id=4d387f8b-7381-48f4-b806-51946aaee70b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\snehal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54152/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (70ede68d62629bcebb579c5bcbc04f80)] -> css selector: a[href*='sign_in']]
+Session ID: 70ede68d62629bcebb579c5bcbc04f80
+	at Academy.E2E.TestCase2.pagenavigation(TestCase2.java:25)
+
+pagenavigation(Academy.E2E.TestCase2)  Time elapsed: 14.795 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (758, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: headless chrome=102.0.5005.63)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-5DD129N', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3a76dd84a5f1fde027b7de41f98a084, clickElement {id=5d83a4d9-b034-43a7-8112-0ec28d142c07}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\snehal\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54291/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d3a76dd84a5f1fde027b7de41f98a084)] -> css selector: a[href*='sign_in']]
+Session ID: d3a76dd84a5f1fde027b7de41f98a084
+	at Academy.E2E.TestCase2.pagenavigation(TestCase2.java:25)
+
